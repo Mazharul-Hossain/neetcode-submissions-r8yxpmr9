@@ -39,11 +39,11 @@ Explanation: Among [1, 2, 3, 4] the median is (2 + 3) / 2 = 2.5.
 
 Constraints:
 
-- nums1.length == m
-- nums2.length == n
-- 0 <= m <= 1000
-- 0 <= n <= 1000
-- -10^6 <= nums1[i], nums2[i] <= 10^6
+- $nums1.length == m$
+- $nums2.length == n$
+- $0 <= m <= 1000$
+- $0 <= n <= 1000$
+- $-10^6 <= nums1[i], nums2[i] <= 10^6$
 
 
 
