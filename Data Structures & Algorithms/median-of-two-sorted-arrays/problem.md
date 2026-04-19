@@ -1,17 +1,19 @@
-# median-of-two-sorted-arrays
 
-    ## Category
-    Data Structures & Algorithms
+---
+tags:
+ - Array
+ - Binary-Search
+ - Divide-and-Conquer
+created: 2026-04-19
+---
 
-    ## Date
-    2026-04-19
+## Notes
 
-    ## Notes
-    <!-- Add your thoughts, edge cases, mistakes -->
+<!-- Add your thoughts, edge cases, mistakes -->
 
-    ---
+---
 
-    # **Median of Two Sorted Arrays**
+# **Median of Two Sorted Arrays**
 
 You are given two integer arrays nums1 and nums2 of size m and n respectively, where each is sorted in ascending order. Return the median value among all elements of the two arrays.
 
