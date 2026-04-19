@@ -17,7 +17,7 @@ created: 2026-04-19
 
 You are given two integer arrays`nums1`and`nums2`of size`m`and`n`respectively, where each is sorted in ascending order. Return themedianvalue among all elements of the two arrays.
 
-Your solution must run in$O(log (m+n))$time.
+Your solution must run in $O(log (m+n))$ time.
 
 **Example 1:**
 
