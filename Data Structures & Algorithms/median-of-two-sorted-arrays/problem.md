@@ -15,11 +15,11 @@ created: 2026-04-19
 
 # **Median of Two Sorted Arrays**
 
-You are given two integer arrays nums1 and nums2 of size m and n respectively, where each is sorted in ascending order. Return the median value among all elements of the two arrays.
+You are given two integer arrays`nums1`and`nums2`of size`m`and`n`respectively, where each is sorted in ascending order. Return themedianvalue among all elements of the two arrays.
 
-Your solution must run in O(log(m+n))O(log (m+n))O(log(m+n)) time.
+Your solution must run in$O(log (m+n))$time.
 
-Example 1:
+**Example 1:**
 
 ```
 Input: nums1 = [1,2], nums2 = [3]
@@ -27,9 +27,9 @@ Input: nums1 = [1,2], nums2 = [3]
 Output: 2.0
 ```
 
-Explanation: Among [1, 2, 3] the median is 2.
+Explanation: Among`[1, 2, 3]`the median is 2.
 
-Example 2:
+**Example 2:**
 
 ```
 Input: nums1 = [1,3], nums2 = [2,4]
@@ -37,9 +37,9 @@ Input: nums1 = [1,3], nums2 = [2,4]
 Output: 2.5
 ```
 
-Explanation: Among [1, 2, 3, 4] the median is (2 + 3) / 2 = 2.5.
+Explanation: Among`[1, 2, 3, 4]`the median is (2 + 3) / 2 = 2.5.
 
-Constraints:
+**Constraints:**
 
 - $nums1.length == m$
 - $nums2.length == n$
