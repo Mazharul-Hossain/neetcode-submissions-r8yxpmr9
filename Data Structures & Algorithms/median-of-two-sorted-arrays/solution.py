@@ -1,5 +1,3 @@
-class Solution:
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         if len(nums2) < len(nums1):
             nums1, nums2 = nums2, nums1
         
@@ -20,3 +18,4 @@ class Solution:
 
             # nums2: [ ... j elements | rest ] so nums2[j-1] <= nums1[i]
             N_left = float("-inf") if j == 0 else nums2[j-1]
+            M_right = float("inf") if i == M_end else nums1[i] 
