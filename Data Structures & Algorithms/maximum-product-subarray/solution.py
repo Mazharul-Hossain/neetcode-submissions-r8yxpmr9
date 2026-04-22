@@ -3,11 +3,13 @@ class Solution:
         answer = nums[0]
         cur_min, cur_max = 1, 1
         for n in nums:
-            temp_max = max(cur_max * n, n, cur_min * n)
-            cur_min = min(cur_max * n, n, cur_min * n)
-            cur_max = temp_max
+            cur_max = max(cur_max * n, n)
+            cur_min = min(n, cur_min * n)
 
             answer = max(cur_max, answer)
         
-        return answer
+            if n < 0:
 
+                cur_min, cur_max = cur_max, cur_min
+        # DP (Kadane-style)
+        return answer
